@@ -5,6 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ED5757"
     tools:context=".home_page">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="234dp"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
